@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>love products page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/love_products.css">
+</head>
+<body>
+    <!--header-->
+    <header>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li class="logo"><a href="home.html"><img src="images/logo.png" alt="logo"></a></li>
+                <li><a href="home.html" class="home">HOME</a></li>
+                <li><a href="about.html" class="about">ABOUT</a></li>
+                <li><a href="products.html" class="product">PRODUCTS</a></li>
+                <li><a href="contact.html" class="contact">CONTACT</a></li>
+            </ul>
+            <div class="search-container">
+                <input type="text" placeholder="Search" class="search-input" id="search-input">
+                <div>
+                    <button class="search-clear" id="clear-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                            <path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="heart-icon">
+                <a href="love_products.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="red" width="20px" height="20px" viewBox="0 0 512 512">
+                        <path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="search_icon" id="search-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 512 512">
+                    <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/>
+                </svg>
+            </div>
+        </nav>
+    </header>
+    <!--end header-->
+    <div>
+        <h1 class="my_Favorites_text">
+            My Favorites
+        </h1>
+    </div>
+    <!--1-->
+    <div class="product1">
+        <img class="car1" src="images/mercedes.png" alt="mercedes">
+            <div class="car_logo">
+                <a href="https://www.mbusa.com/en/home">
+                    <img class="car1_logo" src="images/mercedes_logo.png" alt="mercedes_logo">
+                </a>
+            </div>
+        <div>    
+            <pre class="dis_car1_text">
+281 HP  2000 CC-Turbo 520 N Automatic
+            </pre>
+        </div>
+    </div>
+    <!--end 1-->
+    <!--2-->
+    <div class="product2">
+        <img class="car2" src="images/toyota.png" alt="toyota">
+            <div class="car_logo">
+                <a href="https://www.toyota.com/">
+                    <img class="car2_logo" src="images/toyota_logo.png" alt="toyota_logo">
+                </a>
+            </div>
+        <div>
+            <pre class="dis_car2_text">
+110 HP  1200 CC   205 N   Automatic
+            </pre>
+        </div>
+    </div>
+    <!--end 2-->
+    <!--3-->
+    <div class="product3">
+        <img class="car3" src="images/BMW.png" alt="bmw"> 
+            <div class="car_logo">
+                <a href="https://www.bmwusa.com/">
+                    <img class="car3_logo" src="images/bmw_logo.png" alt="bmw_logo">
+                </a>
+            </div>
+        <div>
+            <pre class="dis_car3_text">
+110 HP   1485 CC    146 N    Automatic
+            </pre>
+        </div>
+    </div>
+    <!--end 3-->
+    <h1 class="car_name_1">mercedes Glc 300</h1>
+    <h1 class="car_name_2">BMW M3</h1>
+    <h1 class="car_name_3">toyota Sequoia</h1>
+    <!--home js-->
+    <script src="js/love_products.js"></script>
+    <!--end home js-->
+</body>
+</html>
+<!---->
